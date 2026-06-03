@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Synapse Web Studio crafts premium, high-converting websites and custom web applications with stunning glassmorphic design and seamless functionality.">
+    <title>Synapse Web Studio | Premium Web Design & Development Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header id="main-header">
+        <div class="container nav-container">
+            <a href="#" class="logo" id="nav-logo">
+                Synapse<span class="logo-dot"></span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero" class="active" id="link-hero">Home</a></li>
+                    <li><a href="#services" id="link-services">Services</a></li>
+                    <li><a href="#calculator" id="link-calculator">Pricing Calculator</a></li>
+                    <li><a href="#portfolio" id="link-portfolio">Showcase</a></li>
+                    <li><a href="#testimonials" id="link-testimonials">Reviews</a></li>
+                    <li><a href="#contact" id="link-contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-secondary" id="nav-cta-btn">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge">Next-Gen Web Design</span>
+                <h1>Crafting Digital <br><span class="gradient-text">Masterpieces</span> For Brands</h1>
+                <p>We build ultra-premium websites, web apps, and digital experiences that captivate audiences and accelerate business growth.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary" id="hero-primary-btn">Start Your Project</a>
+                    <a href="#calculator" class="btn btn-secondary" id="hero-secondary-btn">Estimate Cost</a>
+                </div>
+            </div>
+
+            <!-- Interactive Device Mockup -->
+            <div class="hero-mockup-wrapper">
+                <div class="mockup-controls">
+                    <button class="control-btn active" data-device="desktop" id="btn-device-desktop">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M12 1H4a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM4 0a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/><path d="M5 14h6a1 1 0 0 0 1-1H4a1 1 0 0 0 1 1z"/></svg>
+                        Desktop
+                    </button>
+                    <button class="control-btn" data-device="tablet" id="btn-device-tablet">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M12 1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/><path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+                        Tablet
+                    </button>
+                    <button class="control-btn" data-device="mobile" id="btn-device-mobile">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/><path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+                        Mobile
+                    </button>
+                </div>
+                <div class="mockup-frame" id="mockup-viewport">
+                    <div class="mockup-bar">
+                        <div class="mockup-dot"></div>
+                        <div class="mockup-dot"></div>
+                        <div class="mockup-dot"></div>
+                        <div class="mockup-address">https://synapseweb.studio/work/moda-fashion</div>
+                    </div>
+                    <div class="mockup-screen" id="mockup-screen-content">
+                        <!-- Standard mockup container loaded by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>We combine striking visual design with clean, powerful code to deliver exceptional digital platforms.</p>
+            </div>
+            <div class="services-grid">
+                <div class="glass-card service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h3>Bespoke Web Design</h3>
+                    <p>Stunning, glassmorphic layout designs tailored strictly to your brand identity, optimized for visual wow-factor and smooth user experiences.</p>
+                </div>
+                <div class="glass-card service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                    </div>
+                    <h3>E-Commerce Systems</h3>
+                    <p>Modern online stores with secure checkout flow, responsive grid catalogs, fast search, and complete inventory management backends.</p>
+                </div>
+                <div class="glass-card service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>Custom Web Apps</h3>
+                    <p>Rich single page apps and custom administration dashboards developed using solid architectural principles for peak scalability.</p>
+                </div>
+                <div class="glass-card service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    </div>
+                    <h3>SEO & Speed Optimization</h3>
+                    <p>Optimizing code efficiency, asset sizes, and semantic structure to secure top-tier organic Google rankings and under 1-second load speeds.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Calculator Section -->
+    <section id="calculator" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Project Cost Estimator</h2>
+                <p>Toggle features and estimate the cost for your custom website building project instantly.</p>
+            </div>
+            
+            <div class="glass-card calculator-container">
+                <div class="calc-grid">
+                    <!-- Calculator Inputs -->
+                    <div class="calc-options">
+                        <div class="calc-group">
+                            <label for="pages-slider">
+                                Number of Pages
+                                <span class="calc-val-label" id="pages-value">5 Pages</span>
+                            </label>
+                            <input type="range" id="pages-slider" min="1" max="30" value="5">
+                        </div>
+                        
+                        <div class="toggle-wrapper">
+                            <label style="font-family: var(--font-heading); font-weight: 600;">Optional Add-ons</label>
+                            
+                            <div class="toggle-item">
+                                <div class="toggle-info">
+                                    <h4>Custom UI/UX Design</h4>
+                                    <p>Unique design created from scratch (no templates)</p>
+                                </div>
+                                <label class="switch">
+                                    <input type="checkbox" id="toggle-ux" checked>
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                            
+                            <div class="toggle-item">
+                                <div class="toggle-info">
+                                    <h4>E-Commerce System</h4>
+                                    <p>Payment gateway, catalog, shopping cart integration</p>
+                                </div>
+                                <label class="switch">
+                                    <input type="checkbox" id="toggle-ecommerce">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                            
+                            <div class="toggle-item">
+                                <div class="toggle-info">
+                                    <h4>SEO Setup & Copywriting</h4>
+                                    <p>Keyword indexing, schema markup, header structure</p>
+                                </div>
+                                <label class="switch">
+                                    <input type="checkbox" id="toggle-seo" checked>
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+
+                            <div class="toggle-item">
+                                <div class="toggle-info">
+                                    <h4>CMS / Admin Integration</h4>
+                                    <p>Easy dashboard to modify content yourself</p>
+                                </div>
+                                <label class="switch">
+                                    <input type="checkbox" id="toggle-cms">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Calculator Result -->
+                    <div class="glass-card calc-result">
+                        <span class="calc-result-header">Estimated Investment</span>
+                        <div class="price-display">
+                            <span class="price-currency">$</span>
+                            <span class="price-amount" id="calc-price-amount">1,400</span>
+                        </div>
+                        <span class="price-billing">One-time payment</span>
+                        <a href="#contact" class="btn btn-primary" id="calc-cta-btn" style="width: 100%;">Book Consultation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Creations</h2>
+                <p>Explore some of the premium platforms designed and built by our team.</p>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Portfolio item 1 -->
+                <div class="glass-card portfolio-item" data-project="0">
+                    <div class="portfolio-img">
+                        <img src="assets/mockup_ecommerce.png" alt="Moda E-Commerce Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-details">
+                                <h3>Moda E-Commerce</h3>
+                                <p>Interactive luxury fashion store</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Moda</h3>
+                        <p>Luxury E-Commerce platform for premium clothing lines.</p>
+                    </div>
+                </div>
+                
+                <!-- Portfolio item 2 -->
+                <div class="glass-card portfolio-item" data-project="1">
+                    <div class="portfolio-img">
+                        <img src="assets/mockup_architecture.png" alt="Element Architecture Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-details">
+                                <h3>Element Studio</h3>
+                                <p>Minimalist architectural grid layout</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Element</h3>
+                        <p>Clean, structured portfolio showcasing award-winning homes.</p>
+                    </div>
+                </div>
+                
+                <!-- Portfolio item 3 -->
+                <div class="glass-card portfolio-item" data-project="2">
+                    <div class="portfolio-img">
+                        <img src="assets/mockup_dashboard.png" alt="Apex SaaS Metrics Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-details">
+                                <h3>Apex Dashboard</h3>
+                                <p>Cybernetic analytics panel mockup</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Apex Analytics</h3>
+                        <p>Futuristic metrics monitor dashboard with high-end charts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Loved By Clients</h2>
+                <p>Read opinions and feedback from clients we have helped to build an online presence.</p>
+            </div>
+            
+            <div class="testimonials-wrapper">
+                <div class="testimonials-track" id="testimonials-track">
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide">
+                        <div class="glass-card testimonial-card">
+                            <div class="testimonial-rating">
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            </div>
+                            <p class="testimonial-text">"Synapse took our fashion brand to a whole new level. The design is absolutely beautiful and our clients frequently compliment the user experience of our shop."</p>
+                            <div class="testimonial-user">
+                                <div class="user-avatar">CL</div>
+                                <div class="user-info">
+                                    <h4>Clara Laurent</h4>
+                                    <p>Founder, Moda Boutique</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <div class="glass-card testimonial-card">
+                            <div class="testimonial-rating">
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            </div>
+                            <p class="testimonial-text">"Working with Synapse was incredibly seamless. They built our studio portfolio with beautiful layouts, micro-animations, and it loads in milliseconds."</p>
+                            <div class="testimonial-user">
+                                <div class="user-avatar">MR</div>
+                                <div class="user-info">
+                                    <h4>Marcus Reyes</h4>
+                                    <p>Principal Architect, Element Studio</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="testimonial-slide">
+                        <div class="glass-card testimonial-card">
+                            <div class="testimonial-rating">
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            </div>
+                            <p class="testimonial-text">"The dashboard Synapse built is incredible. The analytics charts are extremely responsive and the overall loading performance is rock solid."</p>
+                            <div class="testimonial-user">
+                                <div class="user-avatar">SL</div>
+                                <div class="user-info">
+                                    <h4>Sarah Lim</h4>
+                                    <p>Product Manager, Apex Data</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Indicators -->
+                <div class="testimonial-controls">
+                    <span class="test-dot active" data-slide="0"></span>
+                    <span class="test-dot" data-slide="1"></span>
+                    <span class="test-dot" data-slide="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Build Something Great</h2>
+                <p>Tell us about your project requirements and let's craft a digital product that stands out.</p>
+            </div>
+            
+            <div class="glass-card contact-container">
+                <form id="project-contact-form" class="contact-form">
+                    <div class="form-group" id="group-name">
+                        <input type="text" id="contact-name" required autocomplete="name">
+                        <label for="contact-name">Full Name</label>
+                    </div>
+                    <div class="form-group" id="group-email">
+                        <input type="email" id="contact-email" required autocomplete="email">
+                        <label for="contact-email">Email Address</label>
+                    </div>
+                    <div class="form-group" id="group-project">
+                        <input type="text" id="contact-project" required>
+                        <label for="contact-project">Project Type (e.g. Portfolio, E-commerce)</label>
+                    </div>
+                    <div class="form-group" id="group-message">
+                        <textarea id="contact-message" required></textarea>
+                        <label for="contact-message">Project Details</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="form-submit-btn" style="width: 100%;">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        Synapse<span class="logo-dot"></span>
+                    </a>
+                    <p>Synapse Web Studio crafts premium, high-converting digital products for forward-thinking brands.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Studio</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#calculator">Pricing Calculator</a></li>
+                        <li><a href="#portfolio">Our Creations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to receive design insights and development tips.</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <input type="email" placeholder="Your email address" required aria-label="Newsletter email">
+                        <button type="submit" class="btn btn-primary" style="padding: 0.8rem 1.2rem;">Join</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Synapse Web Studio. All rights reserved.</p>
+                <p>Designed and Built by Antigravity 2.0</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="success-modal" id="contact-success-modal">
+        <div class="success-content">
+            <div class="success-icon">
+                <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <h3>Inquiry Received!</h3>
+            <p>Thank you for reaching out. The Synapse team will review your project details and get back to you within 24 hours.</p>
+            <button class="btn btn-primary" id="success-close-btn" style="width: 100%;">Close</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
